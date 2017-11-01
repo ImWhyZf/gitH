@@ -1,8 +1,13 @@
-﻿1.1  git
-  查看提交日志   git log pretty=onrline
+﻿  1.1 查看提交日志   git log pretty=onrline
   
-  版本回退   git reset --hard HEAD^   （head 代表当前版本）
+  1.2 版本回退   git reset --hard HEAD^   （head 代表当前版本）
   
-  如果还想回退到刚才的版本  只需要  git reset --hard  (版本id) 
+  1.3 如果还想回退到刚才的版本  只需要  git reset --hard  (版本id) 
   
-  Git提供了一个命令git reflog用来记录你的每一次命令
+  1.4 Git提供了一个命令git reflog用来记录你的每一次命令
+
+  1.5 创建+切换分支：git checkout -b <name>
+  
+  1.6 合并某分支到当前分支：git merge <name>
+
+  1.7 删除分支：git branch -d <name>
