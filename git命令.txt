@@ -1,8 +1,8 @@
-1.1  git
+﻿1.1  git
   查看提交日志   git log pretty=onrline
   
   版本回退   git reset --hard HEAD^   （head 代表当前版本）
   
   如果还想回退到刚才的版本  只需要  git reset --hard  (版本id) 
   
-  Git提供了一个命令git reflog用来记录你的每一次命令：
+  Git提供了一个命令git reflog用来记录你的每一次命令
